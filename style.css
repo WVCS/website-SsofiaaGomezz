@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 body {
 	background-color: lavenderblush;
 }
@@ -19,4 +20,3 @@ img {
 
 img:hover {
 	border: 25px dotted cornflowerblue;
-}
