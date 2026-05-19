@@ -1,3 +1,23 @@
-body {
 
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: lavenderblush;
 }
+
+h2 {
+	 color: cornflowerblue;
+	text-decoration: underline wavy 5px; 
+} 
+h2 {
+	letter-spacing: 3px;
+}
+
+img {
+  width: 80vw;
+  height: auto;
+}
+
+img:hover {
+	border: 25px dotted cornflowerblue;
