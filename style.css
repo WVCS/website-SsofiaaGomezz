@@ -11,6 +11,51 @@ h2 {
 } 
 h2 {
 	letter-spacing: 3px;
+/* General reset to remove default padding/margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, links to right */
+  align-items: center;            /* Vertically centers items */
+  background-color: #333;         /* Dark background */
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Link list styling */
+.nav-links {
+  list-style: none;               /* Removes bullet points */
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Anchor tag styling */
+.nav-links a {
+  text-decoration: none;          /* Removes underline */
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ff9800;                 /* Changes color on hover */
+}
 }
 
 img {
@@ -20,3 +65,51 @@ img {
 
 img:hover {
 	border: 25px dotted cornflowerblue;
+}
+
+/* General reset to remove default padding/margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, links to right */
+  align-items: center;            /* Vertically centers items */
+  background-color: #333;         /* Dark background */
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Link list styling */
+.nav-links {
+  list-style: none;               /* Removes bullet points */
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Anchor tag styling */
+.nav-links a {
+  text-decoration: none;          /* Removes underline */
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ff9800;                 /* Changes color on hover */
+}
+
